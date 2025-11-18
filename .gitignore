@@ -3,3 +3,4 @@ target
 Cargo.lock
 # macOS hidden files
 .DS_Store
+process-repo.log
