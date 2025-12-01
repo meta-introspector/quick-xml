@@ -39,7 +39,7 @@ pretty_assertions = "1.4"
 regex = "1"
 # https://github.com/serde-rs/serde/issues/1904 is fixed since 1.0.206
 # serde does not follow semver in numbering and their dependencies, so we specifying patch here
-serde_derive = { version = "1.0.206" }
+serde_derive = { workspace = true }
 serde-value = "0.7"
 tokio = { version = "1.21", default-features = false, features = ["macros", "rt"] }
 tokio-test = "0.4"
